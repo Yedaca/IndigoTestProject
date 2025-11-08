@@ -1,0 +1,86 @@
+[
+  {
+    "ContainingType": "IndigoTestProject.API.Controllers.BuyProductController",
+    "Method": "saveProduct",
+    "RelativePath": "api/BuyProduct/saveSale",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Sale",
+        "Type": "System.Collections.Generic.List\u00601[[IndigoTestProject.API.Models.Sales, IndigoTestProject.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IndigoTestProject.API.Controllers.ProductController",
+    "Method": "buyProduct",
+    "RelativePath": "api/Product/buyProduct",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IndigoTestProject.API.Controllers.ProductController",
+    "Method": "consultProduct",
+    "RelativePath": "api/Product/consultProduct",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IndigoTestProject.API.Controllers.ProductController",
+    "Method": "consultProductByCode",
+    "RelativePath": "api/Product/consultProductByCode",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ProductCode",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IndigoTestProject.API.Controllers.ProductController",
+    "Method": "deleteProduct",
+    "RelativePath": "api/Product/deleteProduct",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IndigoTestProject.API.Controllers.ProductController",
+    "Method": "saveProduct",
+    "RelativePath": "api/Product/saveProduct",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product",
+        "Type": "IndigoTestProject.API.Models.Products",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

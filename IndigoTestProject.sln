@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndigoTestProject.API", "IndigoTestProject.API\IndigoTestProject.API.csproj", "{378D92BA-1284-4617-B965-591300F27921}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndigoTestProjectFront", "IndigoTestProjectFront\IndigoTestProjectFront.csproj", "{DF35C899-BB44-41EC-A743-5BCB5879E111}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{378D92BA-1284-4617-B965-591300F27921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{378D92BA-1284-4617-B965-591300F27921}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{378D92BA-1284-4617-B965-591300F27921}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{378D92BA-1284-4617-B965-591300F27921}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF35C899-BB44-41EC-A743-5BCB5879E111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF35C899-BB44-41EC-A743-5BCB5879E111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF35C899-BB44-41EC-A743-5BCB5879E111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF35C899-BB44-41EC-A743-5BCB5879E111}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF5232F6-BE31-4989-AAB4-5307C62F2731}
+	EndGlobalSection
+EndGlobal

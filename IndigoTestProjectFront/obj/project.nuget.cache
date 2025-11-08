@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "tErNw2K3JN4=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\YeferssonCaicedo-Sem\\source\\repos\\IndigoTestProject\\IndigoTestProjectFront\\IndigoTestProjectFront.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\YeferssonCaicedo-Sem\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

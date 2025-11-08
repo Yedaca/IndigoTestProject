@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Nuevo perfil",
+    "Projects": [
+      {
+        "Path": "IndigoTestProject.API\\IndigoTestProject.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "IndigoTestProjectFront\\IndigoTestProjectFront.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
