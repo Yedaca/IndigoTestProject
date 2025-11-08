@@ -53,6 +53,7 @@ namespace IndigoTestProjectFront.Products
             {
                 MessageBox.Show("Debe diligenciar la cantidad actual del producto", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
+            Cursor.Current = Cursors.WaitCursor;
             var product = new ProductsModel
             {
                 Id = ProductId,
@@ -70,6 +71,7 @@ namespace IndigoTestProjectFront.Products
             {
                 MessageBox.Show($"Ocurrió un problema al guardar el producto - {response.Message}", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
+            Cursor.Current = Cursors.Default;
             clean();
         }
 
@@ -114,6 +116,7 @@ namespace IndigoTestProjectFront.Products
         /// <param name="productCode"></param>
         private async void consultProduct(string productCode)
         {
+            Cursor.Current = Cursors.WaitCursor;
             var response = await _AppService.GetAsyncByCode<ResponseModel>("api/Product/consultProductByCode?ProductCode=", productCode);
             if (response.Data != null)
             {            
@@ -129,6 +132,7 @@ namespace IndigoTestProjectFront.Products
             mtbPrice.Enabled = true;
             bSave.Enabled = true;
             bDelete.Enabled = true;
+            Cursor.Current = Cursors.Default;
         }
 
         /// <summary>

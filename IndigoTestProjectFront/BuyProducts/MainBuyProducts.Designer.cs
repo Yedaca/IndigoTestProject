@@ -30,13 +30,13 @@
         {
             label1 = new Label();
             dgvProducts = new DataGridView();
-            bBuy = new Button();
             Id = new DataGridViewTextBoxColumn();
             ProductCode = new DataGridViewTextBoxColumn();
             Product = new DataGridViewTextBoxColumn();
             Price = new DataGridViewTextBoxColumn();
             AvailableQuantity = new DataGridViewTextBoxColumn();
             Quantity = new DataGridViewTextBoxColumn();
+            bBuy = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvProducts).BeginInit();
             SuspendLayout();
             // 
@@ -61,16 +61,6 @@
             dgvProducts.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dgvProducts.Size = new Size(665, 204);
             dgvProducts.TabIndex = 1;
-            // 
-            // bBuy
-            // 
-            bBuy.Location = new Point(308, 263);
-            bBuy.Name = "bBuy";
-            bBuy.Size = new Size(75, 23);
-            bBuy.TabIndex = 2;
-            bBuy.Text = "Comprar";
-            bBuy.UseVisualStyleBackColor = true;
-            bBuy.Click += bBuy_Click;
             // 
             // Id
             // 
@@ -113,6 +103,16 @@
             Quantity.HeaderText = "Cantidad a comprar";
             Quantity.Name = "Quantity";
             // 
+            // bBuy
+            // 
+            bBuy.Location = new Point(308, 263);
+            bBuy.Name = "bBuy";
+            bBuy.Size = new Size(75, 23);
+            bBuy.TabIndex = 2;
+            bBuy.Text = "Comprar";
+            bBuy.UseVisualStyleBackColor = true;
+            bBuy.Click += bBuy_Click;
+            // 
             // MainBuyProducts
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -124,6 +124,7 @@
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "MainBuyProducts";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Comprar productos";
             Load += MainBuyProducts_Load;
             ((System.ComponentModel.ISupportInitialize)dgvProducts).EndInit();

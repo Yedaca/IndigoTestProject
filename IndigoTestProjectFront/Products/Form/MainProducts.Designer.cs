@@ -97,7 +97,7 @@
             mtbProductCode.Name = "mtbProductCode";
             mtbProductCode.PromptChar = ' ';
             mtbProductCode.Size = new Size(267, 23);
-            mtbProductCode.TabIndex = 5;
+            mtbProductCode.TabIndex = 1;
             mtbProductCode.TextMaskFormat = MaskFormat.IncludePrompt;
             mtbProductCode.ValidatingType = typeof(int);
             mtbProductCode.KeyDown += mtbProductCode_KeyDown;
@@ -112,7 +112,7 @@
             mtbQuantity.Name = "mtbQuantity";
             mtbQuantity.PromptChar = ' ';
             mtbQuantity.Size = new Size(267, 23);
-            mtbQuantity.TabIndex = 6;
+            mtbQuantity.TabIndex = 3;
             mtbQuantity.TextMaskFormat = MaskFormat.IncludePrompt;
             mtbQuantity.ValidatingType = typeof(int);
             // 
@@ -122,7 +122,7 @@
             tbProductName.Location = new Point(153, 73);
             tbProductName.Name = "tbProductName";
             tbProductName.Size = new Size(267, 23);
-            tbProductName.TabIndex = 7;
+            tbProductName.TabIndex = 2;
             // 
             // mtbPrice
             // 
@@ -134,7 +134,7 @@
             mtbPrice.Name = "mtbPrice";
             mtbPrice.PromptChar = ' ';
             mtbPrice.Size = new Size(267, 23);
-            mtbPrice.TabIndex = 8;
+            mtbPrice.TabIndex = 4;
             mtbPrice.TextMaskFormat = MaskFormat.IncludePrompt;
             mtbPrice.ValidatingType = typeof(int);
             // 

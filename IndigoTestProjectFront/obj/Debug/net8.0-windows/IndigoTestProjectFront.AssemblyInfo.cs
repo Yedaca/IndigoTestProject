@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IndigoTestProjectFront")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+78b6950009b00038a164ec2c8881333639427d54")]
 [assembly: System.Reflection.AssemblyProductAttribute("IndigoTestProjectFront")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IndigoTestProjectFront")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -39,8 +39,9 @@ namespace IndigoTestProjectFront
         /// <param name="e"></param>
         private async void bBuy_Click(object sender, EventArgs e)
         {
+            Cursor.Current = Cursors.WaitCursor;
             List<SalesModel> salesModels = new List<SalesModel>();
-            foreach (DataGridViewRow fila in dgvProducts.SelectedRows)
+            foreach (DataGridViewRow fila in dgvProducts.Rows)
             {
                 salesModels.Add(new SalesModel()
                 {
@@ -64,10 +65,11 @@ namespace IndigoTestProjectFront
         #region "Methods"
         private async void loadProducts()
         {
+            Cursor.Current = Cursors.WaitCursor;
             var response = await _AppService.GetAsync<ResponseModel>("api/Product/consultProduct");
-            var salesList = JsonConvert.DeserializeObject<List<ProductsModel>>(response.Data.ToString());
-            dgvProducts.DataSource = null;
-            dgvProducts.DataSource = salesList;
+            var productsList = JsonConvert.DeserializeObject<List<ProductsModel>>(response.Data.ToString());
+            dgvProducts.DataSource = productsList;
+            Cursor.Current = Cursors.Default;
         }
         #endregion
 

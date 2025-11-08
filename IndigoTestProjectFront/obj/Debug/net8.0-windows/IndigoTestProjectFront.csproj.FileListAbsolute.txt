@@ -19,3 +19,4 @@ C:\Users\YeferssonCaicedo-Sem\source\repos\IndigoTestProject\IndigoTestProjectFr
 C:\Users\YeferssonCaicedo-Sem\source\repos\IndigoTestProject\IndigoTestProjectFront\obj\Debug\net8.0-windows\IndigoTestProjectFront.csproj.AssemblyReference.cache
 C:\Users\YeferssonCaicedo-Sem\source\repos\IndigoTestProject\IndigoTestProjectFront\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
 C:\Users\YeferssonCaicedo-Sem\source\repos\IndigoTestProject\IndigoTestProjectFront\obj\Debug\net8.0-windows\IndigoTe.66712228.Up2Date
+C:\Users\YeferssonCaicedo-Sem\source\repos\IndigoTestProject\IndigoTestProjectFront\obj\Debug\net8.0-windows\IndigoTestProjectFront.sourcelink.json
